@@ -7435,6 +7435,106 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 /* zappy-self-heal */
 .index-hero-section .index-hero-image-col { max-width: 500px !important; }
 
+
+.index-hero-section .index-hero-container {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 48px !important;
+  padding: 100px 32px 80px !important;
+}
+
+.index-hero-section .index-hero-content {
+  max-width: 600px !important;
+  flex: 0 0 auto !important;
+  order: 2 !important;
+}
+
+.index-hero-section .index-hero-image-col {
+  flex: 1 1 auto;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 1 !important;
+}
+
+.index-hero-section .index-hero-side-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+}
+
+@media (max-width: 768px) {
+.index-hero-section .index-hero-container {
+  flex-direction: column !important;
+  gap: 32px !important;
+  padding: 80px 16px 48px !important;
+}
+
+.index-hero-section .index-hero-content {
+  max-width: 100% !important;
+  order: 2 !important;
+}
+
+.index-hero-section .index-hero-image-col {
+  max-width: 100%;
+  order: 1 !important;
+}
+}
+
+.index-hero-section .index-hero-container {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 48px !important;
+  padding: 100px 32px 80px !important;
+}
+
+.index-hero-section .index-hero-content {
+  max-width: 600px !important;
+  flex: 0 0 auto !important;
+  order: 1 !important;
+}
+
+.index-hero-section .index-hero-image-col {
+  flex: 1 1 auto;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 2 !important;
+}
+
+.index-hero-section .index-hero-side-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+}
+
+@media (max-width: 768px) {
+.index-hero-section .index-hero-container {
+  flex-direction: column !important;
+  gap: 32px !important;
+  padding: 80px 16px 48px !important;
+}
+
+.index-hero-section .index-hero-content {
+  max-width: 100% !important;
+  order: 1 !important;
+}
+
+.index-hero-section .index-hero-image-col {
+  max-width: 100%;
+  order: 2 !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
