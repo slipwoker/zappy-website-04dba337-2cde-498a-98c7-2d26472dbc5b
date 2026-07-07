@@ -113,16 +113,16 @@ Information about WCAG compliance and accessibility features.
 - Phone (tel): tel:0545757040
 
 ### Contact form
-- URL: https://uzi-carmi-clinical-psychologis.zappy5.app
+- URL: https://uzi-carmi-clinical-psychologis.zappy5.app/contact
 - Endpoint: https://uzi-carmi-clinical-psychologis.zappy5.app/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text)
-  - `phone` (tel)
+  - `honeypot` (text)
+  - `name` (text, required)
+  - `phone` (tel, required)
   - `message` (textarea)
-  - `comments` (text)
-  - `privacy_consent` (checkbox)
+  - `privacy_consent` (checkbox, required)
 
 ---
 
