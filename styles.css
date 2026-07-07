@@ -7535,6 +7535,13 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   order: 2 !important;
 }
 }
+
+.navbar .nav-brand .logo-text {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+  color: var(--nav-text, var(--secondary-color, var(--secondary, #3d3c47))) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
